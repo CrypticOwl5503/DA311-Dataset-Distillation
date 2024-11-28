@@ -1,0 +1,16 @@
+2024-11-28 21:48:53 [INFO ]  ======================================== 2024-11-28 21:48:53 ========================================
+2024-11-28 21:48:53 [INFO ]  Base directory is text_results/imdb_20by1_unkinit_repl1\distill_basic\umsab\arch(TextConvNet3,xavier,1.0)_distillLR0.01_E(50,10,0.5)_lr0.01_B10x1x5_train(unknown_init)
+2024-11-28 21:48:53 [ERROR]  Fatal error: 
+2024-11-28 21:48:53 [ERROR]  Traceback (most recent call last):
+2024-11-28 21:48:53 [ERROR]    File "D:\Downloads\textdareal\dataset-distillation-master\main.py", line 435, in <module>
+2024-11-28 21:48:53 [ERROR]      main(options.get_state())
+2024-11-28 21:48:53 [ERROR]           ^^^^^^^^^^^^^^^^^^^
+2024-11-28 21:48:53 [ERROR]    File "D:\Downloads\textdareal\dataset-distillation-master\base_options.py", line 360, in get_state
+2024-11-28 21:48:53 [ERROR]      return self.set_state(self.state)
+2024-11-28 21:48:53 [ERROR]             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-28 21:48:53 [ERROR]    File "D:\Downloads\textdareal\dataset-distillation-master\base_options.py", line 428, in set_state
+2024-11-28 21:48:53 [ERROR]      state.opt.dataset_normalization, state.opt.dataset_labels = datasets.get_info(state)
+2024-11-28 21:48:53 [ERROR]                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^
+2024-11-28 21:48:53 [ERROR]    File "D:\Downloads\textdareal\dataset-distillation-master\datasets\__init__.py", line 115, in get_info
+2024-11-28 21:48:53 [ERROR]      assert name in dataset_stats, 'Unsupported dataset: {}'.format(state.dataset)
+2024-11-28 21:48:53 [ERROR]  AssertionError: Unsupported dataset: umsab

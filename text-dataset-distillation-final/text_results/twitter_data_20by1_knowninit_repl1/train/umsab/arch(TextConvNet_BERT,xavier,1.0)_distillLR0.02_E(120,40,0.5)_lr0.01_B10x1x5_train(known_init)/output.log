@@ -1,0 +1,408 @@
+2024-11-28 08:31:25 [INFO ]  ======================================== 2024-11-28 08:31:25 ========================================
+2024-11-28 08:31:25 [INFO ]  Base directory is text_results/umsab_20by1_knowninit_repl1\train\umsab\arch(TextConvNet_BERT,xavier,1.0)_distillLR0.02_E(120,40,0.5)_lr0.01_B10x1x5_train(known_init)
+2024-11-28 08:31:25 [INFO ]  Options: 
+2024-11-28 08:31:25 [INFO ]  	add_first: true
+2024-11-28 08:31:25 [INFO ]  	add_label_scaling: 0
+2024-11-28 08:31:25 [INFO ]  	arch: TextConvNet_BERT
+2024-11-28 08:31:25 [INFO ]  	attack_class: 0
+2024-11-28 08:31:25 [INFO ]  	base_seed: 1
+2024-11-28 08:31:25 [INFO ]  	batch_size: 1024
+2024-11-28 08:31:25 [INFO ]  	checkpoint_interval: 10
+2024-11-28 08:31:25 [INFO ]  	dataset: umsab
+2024-11-28 08:31:25 [INFO ]  	dataset_labels: !!set
+2024-11-28 08:31:25 [INFO ]  	    0: null
+2024-11-28 08:31:25 [INFO ]  	    1: null
+2024-11-28 08:31:25 [INFO ]  	    2: null
+2024-11-28 08:31:25 [INFO ]  	dataset_normalization: !!python/tuple
+2024-11-28 08:31:25 [INFO ]  	- &id001 !!python/tuple
+2024-11-28 08:31:25 [INFO ]  	    - 0
+2024-11-28 08:31:25 [INFO ]  	- *id001
+2024-11-28 08:31:25 [INFO ]  	dataset_root: ./data/text/umsab
+2024-11-28 08:31:25 [INFO ]  	decay_epochs: 40
+2024-11-28 08:31:25 [INFO ]  	decay_factor: 0.5
+2024-11-28 08:31:25 [INFO ]  	device_id: 0
+2024-11-28 08:31:25 [INFO ]  	dist_metric: MSE
+2024-11-28 08:31:25 [INFO ]  	distill_epochs: 5
+2024-11-28 08:31:25 [INFO ]  	distill_lr: 0.02
+2024-11-28 08:31:25 [INFO ]  	distill_steps: 1
+2024-11-28 08:31:25 [INFO ]  	distilled_images_per_class_per_step: 10
+2024-11-28 08:31:25 [INFO ]  	distributed: false
+2024-11-28 08:31:25 [INFO ]  	dropout: false
+2024-11-28 08:31:25 [INFO ]  	epochs: 120
+2024-11-28 08:31:25 [INFO ]  	expr_name_format: null
+2024-11-28 08:31:25 [INFO ]  	freeze_data: false
+2024-11-28 08:31:25 [INFO ]  	image_dpi: 80
+2024-11-28 08:31:25 [INFO ]  	init: xavier
+2024-11-28 08:31:25 [INFO ]  	init_labels:
+2024-11-28 08:31:25 [INFO ]  	- 0
+2024-11-28 08:31:25 [INFO ]  	- 1
+2024-11-28 08:31:25 [INFO ]  	- 2
+2024-11-28 08:31:25 [INFO ]  	init_param: 1.0
+2024-11-28 08:31:25 [INFO ]  	input_size: 400
+2024-11-28 08:31:25 [INFO ]  	invert_dist: false
+2024-11-28 08:31:25 [INFO ]  	label_softmax: false
+2024-11-28 08:31:25 [INFO ]  	learnable_embedding: false
+2024-11-28 08:31:25 [INFO ]  	log_file: text_results/umsab_20by1_knowninit_repl1\train\umsab\arch(TextConvNet_BERT,xavier,1.0)_distillLR0.02_E(120,40,0.5)_lr0.01_B10x1x5_train(known_init)\output.log
+2024-11-28 08:31:25 [INFO ]  	log_interval: 100
+2024-11-28 08:31:25 [INFO ]  	log_level: INFO
+2024-11-28 08:31:25 [INFO ]  	lr: 0.01
+2024-11-28 08:31:25 [INFO ]  	maxlen: 400
+2024-11-28 08:31:25 [INFO ]  	mode: train
+2024-11-28 08:31:25 [INFO ]  	model_dir: ./models/
+2024-11-28 08:31:25 [INFO ]  	model_subdir_format: null
+2024-11-28 08:31:25 [INFO ]  	mult_label_scaling: 1
+2024-11-28 08:31:25 [INFO ]  	n_nets: 1
+2024-11-28 08:31:25 [INFO ]  	nc: 1
+2024-11-28 08:31:25 [INFO ]  	ninp: 50
+2024-11-28 08:31:25 [INFO ]  	no_log: false
+2024-11-28 08:31:25 [INFO ]  	ntoken: 251639
+2024-11-28 08:31:25 [INFO ]  	num_classes: 3
+2024-11-28 08:31:25 [INFO ]  	num_distill_classes: 3
+2024-11-28 08:31:25 [INFO ]  	num_workers: 8
+2024-11-28 08:31:25 [INFO ]  	phase: train
+2024-11-28 08:31:25 [INFO ]  	random_init_labels: ''
+2024-11-28 08:31:25 [INFO ]  	reproduction_test: false
+2024-11-28 08:31:25 [INFO ]  	results_dir: text_results/umsab_20by1_knowninit_repl1
+2024-11-28 08:31:25 [INFO ]  	sample_n_nets: 1
+2024-11-28 08:31:25 [INFO ]  	source_dataset: null
+2024-11-28 08:31:25 [INFO ]  	start_time: '2024-11-28 08:31:25'
+2024-11-28 08:31:25 [INFO ]  	static_labels: 0
+2024-11-28 08:31:25 [INFO ]  	target_class: 1
+2024-11-28 08:31:25 [INFO ]  	test_batch_size: 1024
+2024-11-28 08:31:25 [INFO ]  	test_distill_epochs: null
+2024-11-28 08:31:25 [INFO ]  	test_distilled_images: loaded
+2024-11-28 08:31:25 [INFO ]  	test_distilled_lrs:
+2024-11-28 08:31:25 [INFO ]  	- loaded
+2024-11-28 08:31:25 [INFO ]  	test_n_nets: 1
+2024-11-28 08:31:25 [INFO ]  	test_n_runs: 1
+2024-11-28 08:31:25 [INFO ]  	test_name_format: null
+2024-11-28 08:31:25 [INFO ]  	test_nets_type: same_as_train
+2024-11-28 08:31:25 [INFO ]  	test_niter: 1
+2024-11-28 08:31:25 [INFO ]  	test_optimize_n_nets: 20
+2024-11-28 08:31:25 [INFO ]  	test_optimize_n_runs: null
+2024-11-28 08:31:25 [INFO ]  	textdata: false
+2024-11-28 08:31:25 [INFO ]  	train_nets_type: known_init
+2024-11-28 08:31:25 [INFO ]  	visualize: true
+2024-11-28 08:31:25 [INFO ]  	world_rank: 0
+2024-11-28 08:31:25 [INFO ]  	world_size: 1
+2024-11-28 08:31:25 [INFO ]  	
+2024-11-28 08:31:38 [ERROR]  Fatal error: 
+2024-11-28 08:31:38 [ERROR]  Traceback (most recent call last):
+2024-11-28 08:31:38 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\text-dataset-distillation-master\main.py", line 437, in <module>
+2024-11-28 08:31:38 [ERROR]      main(options.get_state())
+2024-11-28 08:31:38 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\text-dataset-distillation-master\base_options.py", line 360, in get_state
+2024-11-28 08:31:38 [ERROR]      return self.set_state(self.state)
+2024-11-28 08:31:38 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\text-dataset-distillation-master\base_options.py", line 502, in set_state
+2024-11-28 08:31:38 [ERROR]      torch.cuda.manual_seed(seed)
+2024-11-28 08:31:38 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\env39\lib\site-packages\torch\cuda\random.py", line 110, in manual_seed
+2024-11-28 08:31:38 [ERROR]      _lazy_call(cb, seed=True)
+2024-11-28 08:31:38 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\env39\lib\site-packages\torch\cuda\__init__.py", line 249, in _lazy_call
+2024-11-28 08:31:38 [ERROR]      callable()
+2024-11-28 08:31:38 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\env39\lib\site-packages\torch\cuda\random.py", line 108, in cb
+2024-11-28 08:31:38 [ERROR]      default_generator.manual_seed(seed)
+2024-11-28 08:31:38 [ERROR]  RuntimeError: CUDA error: out of memory
+2024-11-28 08:31:38 [ERROR]  CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+2024-11-28 08:31:38 [ERROR]  For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+2024-11-28 08:31:38 [ERROR]  Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+2024-11-28 08:33:18 [INFO ]  ======================================== 2024-11-28 08:33:18 ========================================
+2024-11-28 08:33:18 [INFO ]  Base directory is text_results/umsab_20by1_knowninit_repl1\train\umsab\arch(TextConvNet_BERT,xavier,1.0)_distillLR0.02_E(120,40,0.5)_lr0.01_B10x1x5_train(known_init)
+2024-11-28 08:33:18 [INFO ]  Options: 
+2024-11-28 08:33:18 [INFO ]  	add_first: true
+2024-11-28 08:33:18 [INFO ]  	add_label_scaling: 0
+2024-11-28 08:33:18 [INFO ]  	arch: TextConvNet_BERT
+2024-11-28 08:33:18 [INFO ]  	attack_class: 0
+2024-11-28 08:33:18 [INFO ]  	base_seed: 1
+2024-11-28 08:33:18 [INFO ]  	batch_size: 1024
+2024-11-28 08:33:18 [INFO ]  	checkpoint_interval: 10
+2024-11-28 08:33:18 [INFO ]  	dataset: umsab
+2024-11-28 08:33:18 [INFO ]  	dataset_labels: !!set
+2024-11-28 08:33:18 [INFO ]  	    0: null
+2024-11-28 08:33:18 [INFO ]  	    1: null
+2024-11-28 08:33:18 [INFO ]  	    2: null
+2024-11-28 08:33:18 [INFO ]  	dataset_normalization: !!python/tuple
+2024-11-28 08:33:18 [INFO ]  	- &id001 !!python/tuple
+2024-11-28 08:33:18 [INFO ]  	    - 0
+2024-11-28 08:33:18 [INFO ]  	- *id001
+2024-11-28 08:33:18 [INFO ]  	dataset_root: ./data/text/umsab
+2024-11-28 08:33:18 [INFO ]  	decay_epochs: 40
+2024-11-28 08:33:18 [INFO ]  	decay_factor: 0.5
+2024-11-28 08:33:18 [INFO ]  	device_id: 0
+2024-11-28 08:33:18 [INFO ]  	dist_metric: MSE
+2024-11-28 08:33:18 [INFO ]  	distill_epochs: 5
+2024-11-28 08:33:18 [INFO ]  	distill_lr: 0.02
+2024-11-28 08:33:18 [INFO ]  	distill_steps: 1
+2024-11-28 08:33:18 [INFO ]  	distilled_images_per_class_per_step: 10
+2024-11-28 08:33:18 [INFO ]  	distributed: false
+2024-11-28 08:33:18 [INFO ]  	dropout: false
+2024-11-28 08:33:18 [INFO ]  	epochs: 120
+2024-11-28 08:33:18 [INFO ]  	expr_name_format: null
+2024-11-28 08:33:18 [INFO ]  	freeze_data: false
+2024-11-28 08:33:18 [INFO ]  	image_dpi: 80
+2024-11-28 08:33:18 [INFO ]  	init: xavier
+2024-11-28 08:33:18 [INFO ]  	init_labels:
+2024-11-28 08:33:18 [INFO ]  	- 0
+2024-11-28 08:33:18 [INFO ]  	- 1
+2024-11-28 08:33:18 [INFO ]  	- 2
+2024-11-28 08:33:18 [INFO ]  	init_param: 1.0
+2024-11-28 08:33:18 [INFO ]  	input_size: 400
+2024-11-28 08:33:18 [INFO ]  	invert_dist: false
+2024-11-28 08:33:18 [INFO ]  	label_softmax: false
+2024-11-28 08:33:18 [INFO ]  	learnable_embedding: false
+2024-11-28 08:33:18 [INFO ]  	log_file: text_results/umsab_20by1_knowninit_repl1\train\umsab\arch(TextConvNet_BERT,xavier,1.0)_distillLR0.02_E(120,40,0.5)_lr0.01_B10x1x5_train(known_init)\output.log
+2024-11-28 08:33:18 [INFO ]  	log_interval: 100
+2024-11-28 08:33:18 [INFO ]  	log_level: INFO
+2024-11-28 08:33:18 [INFO ]  	lr: 0.01
+2024-11-28 08:33:18 [INFO ]  	maxlen: 400
+2024-11-28 08:33:18 [INFO ]  	mode: train
+2024-11-28 08:33:18 [INFO ]  	model_dir: ./models/
+2024-11-28 08:33:18 [INFO ]  	model_subdir_format: null
+2024-11-28 08:33:18 [INFO ]  	mult_label_scaling: 1
+2024-11-28 08:33:18 [INFO ]  	n_nets: 1
+2024-11-28 08:33:18 [INFO ]  	nc: 1
+2024-11-28 08:33:18 [INFO ]  	ninp: 50
+2024-11-28 08:33:18 [INFO ]  	no_log: false
+2024-11-28 08:33:18 [INFO ]  	ntoken: 251639
+2024-11-28 08:33:18 [INFO ]  	num_classes: 3
+2024-11-28 08:33:18 [INFO ]  	num_distill_classes: 3
+2024-11-28 08:33:18 [INFO ]  	num_workers: 8
+2024-11-28 08:33:18 [INFO ]  	phase: train
+2024-11-28 08:33:18 [INFO ]  	random_init_labels: ''
+2024-11-28 08:33:18 [INFO ]  	reproduction_test: false
+2024-11-28 08:33:18 [INFO ]  	results_dir: text_results/umsab_20by1_knowninit_repl1
+2024-11-28 08:33:18 [INFO ]  	sample_n_nets: 1
+2024-11-28 08:33:18 [INFO ]  	source_dataset: null
+2024-11-28 08:33:18 [INFO ]  	start_time: '2024-11-28 08:33:18'
+2024-11-28 08:33:18 [INFO ]  	static_labels: 0
+2024-11-28 08:33:18 [INFO ]  	target_class: 1
+2024-11-28 08:33:18 [INFO ]  	test_batch_size: 1024
+2024-11-28 08:33:18 [INFO ]  	test_distill_epochs: null
+2024-11-28 08:33:18 [INFO ]  	test_distilled_images: loaded
+2024-11-28 08:33:18 [INFO ]  	test_distilled_lrs:
+2024-11-28 08:33:18 [INFO ]  	- loaded
+2024-11-28 08:33:18 [INFO ]  	test_n_nets: 1
+2024-11-28 08:33:18 [INFO ]  	test_n_runs: 1
+2024-11-28 08:33:18 [INFO ]  	test_name_format: null
+2024-11-28 08:33:18 [INFO ]  	test_nets_type: same_as_train
+2024-11-28 08:33:18 [INFO ]  	test_niter: 1
+2024-11-28 08:33:18 [INFO ]  	test_optimize_n_nets: 20
+2024-11-28 08:33:18 [INFO ]  	test_optimize_n_runs: null
+2024-11-28 08:33:18 [INFO ]  	textdata: false
+2024-11-28 08:33:18 [INFO ]  	train_nets_type: known_init
+2024-11-28 08:33:18 [INFO ]  	visualize: true
+2024-11-28 08:33:18 [INFO ]  	world_rank: 0
+2024-11-28 08:33:18 [INFO ]  	world_size: 1
+2024-11-28 08:33:18 [INFO ]  	
+2024-11-28 08:33:18 [WARNING]  text_results/umsab_20by1_knowninit_repl1\train\umsab\arch(TextConvNet_BERT,xavier,1.0)_distillLR0.02_E(120,40,0.5)_lr0.01_B10x1x5_train(known_init)\opt.yaml already exists, moved to text_results/umsab_20by1_knowninit_repl1\train\umsab\arch(TextConvNet_BERT,xavier,1.0)_distillLR0.02_E(120,40,0.5)_lr0.01_B10x1x5_train(known_init)\old_opts\opt_2024_11_28__08_31_25.yaml
+2024-11-28 08:33:22 [ERROR]  Fatal error: 
+2024-11-28 08:33:22 [ERROR]  Traceback (most recent call last):
+2024-11-28 08:33:22 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\text-dataset-distillation-master\main.py", line 437, in <module>
+2024-11-28 08:33:22 [ERROR]      main(options.get_state())
+2024-11-28 08:33:22 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\text-dataset-distillation-master\base_options.py", line 360, in get_state
+2024-11-28 08:33:22 [ERROR]      return self.set_state(self.state)
+2024-11-28 08:33:22 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\text-dataset-distillation-master\base_options.py", line 540, in set_state
+2024-11-28 08:33:22 [ERROR]      train_dataset = datasets.get_dataset(state, 'train')
+2024-11-28 08:33:22 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\text-dataset-distillation-master\datasets\__init__.py", line 312, in get_dataset
+2024-11-28 08:33:22 [ERROR]      train_examples = [data.Example.fromlist([text, label], fields=[('text', TEXT), ('label', LABEL)]) for text, label in zip(open('./data/umsab/train_text.txt').read().split('\n'), open('./data/umsab/train_labels.txt').read().split('\n'))]
+2024-11-28 08:33:22 [ERROR]  FileNotFoundError: [Errno 2] No such file or directory: './data/umsab/train_text.txt'
+2024-11-28 08:34:58 [INFO ]  ======================================== 2024-11-28 08:34:58 ========================================
+2024-11-28 08:34:58 [INFO ]  Base directory is text_results/umsab_20by1_knowninit_repl1\train\umsab\arch(TextConvNet_BERT,xavier,1.0)_distillLR0.02_E(120,40,0.5)_lr0.01_B10x1x5_train(known_init)
+2024-11-28 08:34:58 [INFO ]  Options: 
+2024-11-28 08:34:58 [INFO ]  	add_first: true
+2024-11-28 08:34:58 [INFO ]  	add_label_scaling: 0
+2024-11-28 08:34:58 [INFO ]  	arch: TextConvNet_BERT
+2024-11-28 08:34:58 [INFO ]  	attack_class: 0
+2024-11-28 08:34:58 [INFO ]  	base_seed: 1
+2024-11-28 08:34:58 [INFO ]  	batch_size: 1024
+2024-11-28 08:34:58 [INFO ]  	checkpoint_interval: 10
+2024-11-28 08:34:58 [INFO ]  	dataset: umsab
+2024-11-28 08:34:58 [INFO ]  	dataset_labels: !!set
+2024-11-28 08:34:58 [INFO ]  	    0: null
+2024-11-28 08:34:58 [INFO ]  	    1: null
+2024-11-28 08:34:58 [INFO ]  	    2: null
+2024-11-28 08:34:58 [INFO ]  	dataset_normalization: !!python/tuple
+2024-11-28 08:34:58 [INFO ]  	- &id001 !!python/tuple
+2024-11-28 08:34:58 [INFO ]  	    - 0
+2024-11-28 08:34:58 [INFO ]  	- *id001
+2024-11-28 08:34:58 [INFO ]  	dataset_root: ./data/text/umsab
+2024-11-28 08:34:58 [INFO ]  	decay_epochs: 40
+2024-11-28 08:34:58 [INFO ]  	decay_factor: 0.5
+2024-11-28 08:34:58 [INFO ]  	device_id: 0
+2024-11-28 08:34:58 [INFO ]  	dist_metric: MSE
+2024-11-28 08:34:58 [INFO ]  	distill_epochs: 5
+2024-11-28 08:34:58 [INFO ]  	distill_lr: 0.02
+2024-11-28 08:34:58 [INFO ]  	distill_steps: 1
+2024-11-28 08:34:58 [INFO ]  	distilled_images_per_class_per_step: 10
+2024-11-28 08:34:58 [INFO ]  	distributed: false
+2024-11-28 08:34:58 [INFO ]  	dropout: false
+2024-11-28 08:34:58 [INFO ]  	epochs: 120
+2024-11-28 08:34:58 [INFO ]  	expr_name_format: null
+2024-11-28 08:34:58 [INFO ]  	freeze_data: false
+2024-11-28 08:34:58 [INFO ]  	image_dpi: 80
+2024-11-28 08:34:58 [INFO ]  	init: xavier
+2024-11-28 08:34:58 [INFO ]  	init_labels:
+2024-11-28 08:34:58 [INFO ]  	- 0
+2024-11-28 08:34:58 [INFO ]  	- 1
+2024-11-28 08:34:58 [INFO ]  	- 2
+2024-11-28 08:34:58 [INFO ]  	init_param: 1.0
+2024-11-28 08:34:58 [INFO ]  	input_size: 400
+2024-11-28 08:34:58 [INFO ]  	invert_dist: false
+2024-11-28 08:34:58 [INFO ]  	label_softmax: false
+2024-11-28 08:34:58 [INFO ]  	learnable_embedding: false
+2024-11-28 08:34:58 [INFO ]  	log_file: text_results/umsab_20by1_knowninit_repl1\train\umsab\arch(TextConvNet_BERT,xavier,1.0)_distillLR0.02_E(120,40,0.5)_lr0.01_B10x1x5_train(known_init)\output.log
+2024-11-28 08:34:58 [INFO ]  	log_interval: 100
+2024-11-28 08:34:58 [INFO ]  	log_level: INFO
+2024-11-28 08:34:58 [INFO ]  	lr: 0.01
+2024-11-28 08:34:58 [INFO ]  	maxlen: 400
+2024-11-28 08:34:58 [INFO ]  	mode: train
+2024-11-28 08:34:58 [INFO ]  	model_dir: ./models/
+2024-11-28 08:34:58 [INFO ]  	model_subdir_format: null
+2024-11-28 08:34:58 [INFO ]  	mult_label_scaling: 1
+2024-11-28 08:34:58 [INFO ]  	n_nets: 1
+2024-11-28 08:34:58 [INFO ]  	nc: 1
+2024-11-28 08:34:58 [INFO ]  	ninp: 50
+2024-11-28 08:34:58 [INFO ]  	no_log: false
+2024-11-28 08:34:58 [INFO ]  	ntoken: 251639
+2024-11-28 08:34:58 [INFO ]  	num_classes: 3
+2024-11-28 08:34:58 [INFO ]  	num_distill_classes: 3
+2024-11-28 08:34:58 [INFO ]  	num_workers: 8
+2024-11-28 08:34:58 [INFO ]  	phase: train
+2024-11-28 08:34:58 [INFO ]  	random_init_labels: ''
+2024-11-28 08:34:58 [INFO ]  	reproduction_test: false
+2024-11-28 08:34:58 [INFO ]  	results_dir: text_results/umsab_20by1_knowninit_repl1
+2024-11-28 08:34:58 [INFO ]  	sample_n_nets: 1
+2024-11-28 08:34:58 [INFO ]  	source_dataset: null
+2024-11-28 08:34:58 [INFO ]  	start_time: '2024-11-28 08:34:58'
+2024-11-28 08:34:58 [INFO ]  	static_labels: 0
+2024-11-28 08:34:58 [INFO ]  	target_class: 1
+2024-11-28 08:34:58 [INFO ]  	test_batch_size: 1024
+2024-11-28 08:34:58 [INFO ]  	test_distill_epochs: null
+2024-11-28 08:34:58 [INFO ]  	test_distilled_images: loaded
+2024-11-28 08:34:58 [INFO ]  	test_distilled_lrs:
+2024-11-28 08:34:58 [INFO ]  	- loaded
+2024-11-28 08:34:58 [INFO ]  	test_n_nets: 1
+2024-11-28 08:34:58 [INFO ]  	test_n_runs: 1
+2024-11-28 08:34:58 [INFO ]  	test_name_format: null
+2024-11-28 08:34:58 [INFO ]  	test_nets_type: same_as_train
+2024-11-28 08:34:58 [INFO ]  	test_niter: 1
+2024-11-28 08:34:58 [INFO ]  	test_optimize_n_nets: 20
+2024-11-28 08:34:58 [INFO ]  	test_optimize_n_runs: null
+2024-11-28 08:34:58 [INFO ]  	textdata: false
+2024-11-28 08:34:58 [INFO ]  	train_nets_type: known_init
+2024-11-28 08:34:58 [INFO ]  	visualize: true
+2024-11-28 08:34:58 [INFO ]  	world_rank: 0
+2024-11-28 08:34:58 [INFO ]  	world_size: 1
+2024-11-28 08:34:58 [INFO ]  	
+2024-11-28 08:34:58 [WARNING]  text_results/umsab_20by1_knowninit_repl1\train\umsab\arch(TextConvNet_BERT,xavier,1.0)_distillLR0.02_E(120,40,0.5)_lr0.01_B10x1x5_train(known_init)\opt.yaml already exists, moved to text_results/umsab_20by1_knowninit_repl1\train\umsab\arch(TextConvNet_BERT,xavier,1.0)_distillLR0.02_E(120,40,0.5)_lr0.01_B10x1x5_train(known_init)\old_opts\opt_2024_11_28__08_33_18.yaml
+2024-11-28 08:35:00 [ERROR]  Fatal error: 
+2024-11-28 08:35:00 [ERROR]  Traceback (most recent call last):
+2024-11-28 08:35:00 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\text-dataset-distillation-master\main.py", line 437, in <module>
+2024-11-28 08:35:00 [ERROR]      main(options.get_state())
+2024-11-28 08:35:00 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\text-dataset-distillation-master\base_options.py", line 360, in get_state
+2024-11-28 08:35:00 [ERROR]      return self.set_state(self.state)
+2024-11-28 08:35:00 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\text-dataset-distillation-master\base_options.py", line 540, in set_state
+2024-11-28 08:35:00 [ERROR]      train_dataset = datasets.get_dataset(state, 'train')
+2024-11-28 08:35:00 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\text-dataset-distillation-master\datasets\__init__.py", line 312, in get_dataset
+2024-11-28 08:35:00 [ERROR]      train_examples = [data.Example.fromlist([text, label], fields=[('text', TEXT), ('label', LABEL)]) for text, label in zip(open('./data/umsab/train_text.txt').read().split('\n'), open('./data/umsab/train_labels.txt').read().split('\n'))]
+2024-11-28 08:35:00 [ERROR]  FileNotFoundError: [Errno 2] No such file or directory: './data/umsab/train_text.txt'
+2024-11-28 08:39:54 [INFO ]  ======================================== 2024-11-28 08:39:54 ========================================
+2024-11-28 08:39:54 [INFO ]  Base directory is text_results/umsab_20by1_knowninit_repl1\train\umsab\arch(TextConvNet_BERT,xavier,1.0)_distillLR0.02_E(120,40,0.5)_lr0.01_B10x1x5_train(known_init)
+2024-11-28 08:39:54 [INFO ]  Options: 
+2024-11-28 08:39:54 [INFO ]  	add_first: true
+2024-11-28 08:39:54 [INFO ]  	add_label_scaling: 0
+2024-11-28 08:39:54 [INFO ]  	arch: TextConvNet_BERT
+2024-11-28 08:39:54 [INFO ]  	attack_class: 0
+2024-11-28 08:39:54 [INFO ]  	base_seed: 1
+2024-11-28 08:39:54 [INFO ]  	batch_size: 1024
+2024-11-28 08:39:54 [INFO ]  	checkpoint_interval: 10
+2024-11-28 08:39:54 [INFO ]  	dataset: umsab
+2024-11-28 08:39:54 [INFO ]  	dataset_labels: !!set
+2024-11-28 08:39:54 [INFO ]  	    0: null
+2024-11-28 08:39:54 [INFO ]  	    1: null
+2024-11-28 08:39:54 [INFO ]  	    2: null
+2024-11-28 08:39:54 [INFO ]  	dataset_normalization: !!python/tuple
+2024-11-28 08:39:54 [INFO ]  	- &id001 !!python/tuple
+2024-11-28 08:39:54 [INFO ]  	    - 0
+2024-11-28 08:39:54 [INFO ]  	- *id001
+2024-11-28 08:39:54 [INFO ]  	dataset_root: ./data/text/umsab
+2024-11-28 08:39:54 [INFO ]  	decay_epochs: 40
+2024-11-28 08:39:54 [INFO ]  	decay_factor: 0.5
+2024-11-28 08:39:54 [INFO ]  	device_id: 0
+2024-11-28 08:39:54 [INFO ]  	dist_metric: MSE
+2024-11-28 08:39:54 [INFO ]  	distill_epochs: 5
+2024-11-28 08:39:54 [INFO ]  	distill_lr: 0.02
+2024-11-28 08:39:54 [INFO ]  	distill_steps: 1
+2024-11-28 08:39:54 [INFO ]  	distilled_images_per_class_per_step: 10
+2024-11-28 08:39:54 [INFO ]  	distributed: false
+2024-11-28 08:39:54 [INFO ]  	dropout: false
+2024-11-28 08:39:54 [INFO ]  	epochs: 120
+2024-11-28 08:39:54 [INFO ]  	expr_name_format: null
+2024-11-28 08:39:54 [INFO ]  	freeze_data: false
+2024-11-28 08:39:54 [INFO ]  	image_dpi: 80
+2024-11-28 08:39:54 [INFO ]  	init: xavier
+2024-11-28 08:39:54 [INFO ]  	init_labels:
+2024-11-28 08:39:54 [INFO ]  	- 0
+2024-11-28 08:39:54 [INFO ]  	- 1
+2024-11-28 08:39:54 [INFO ]  	- 2
+2024-11-28 08:39:54 [INFO ]  	init_param: 1.0
+2024-11-28 08:39:54 [INFO ]  	input_size: 400
+2024-11-28 08:39:54 [INFO ]  	invert_dist: false
+2024-11-28 08:39:54 [INFO ]  	label_softmax: false
+2024-11-28 08:39:54 [INFO ]  	learnable_embedding: false
+2024-11-28 08:39:54 [INFO ]  	log_file: text_results/umsab_20by1_knowninit_repl1\train\umsab\arch(TextConvNet_BERT,xavier,1.0)_distillLR0.02_E(120,40,0.5)_lr0.01_B10x1x5_train(known_init)\output.log
+2024-11-28 08:39:54 [INFO ]  	log_interval: 100
+2024-11-28 08:39:54 [INFO ]  	log_level: INFO
+2024-11-28 08:39:54 [INFO ]  	lr: 0.01
+2024-11-28 08:39:54 [INFO ]  	maxlen: 400
+2024-11-28 08:39:54 [INFO ]  	mode: train
+2024-11-28 08:39:54 [INFO ]  	model_dir: ./models/
+2024-11-28 08:39:54 [INFO ]  	model_subdir_format: null
+2024-11-28 08:39:54 [INFO ]  	mult_label_scaling: 1
+2024-11-28 08:39:54 [INFO ]  	n_nets: 1
+2024-11-28 08:39:54 [INFO ]  	nc: 1
+2024-11-28 08:39:54 [INFO ]  	ninp: 50
+2024-11-28 08:39:54 [INFO ]  	no_log: false
+2024-11-28 08:39:54 [INFO ]  	ntoken: 251639
+2024-11-28 08:39:54 [INFO ]  	num_classes: 3
+2024-11-28 08:39:54 [INFO ]  	num_distill_classes: 3
+2024-11-28 08:39:54 [INFO ]  	num_workers: 8
+2024-11-28 08:39:54 [INFO ]  	phase: train
+2024-11-28 08:39:54 [INFO ]  	random_init_labels: ''
+2024-11-28 08:39:54 [INFO ]  	reproduction_test: false
+2024-11-28 08:39:54 [INFO ]  	results_dir: text_results/umsab_20by1_knowninit_repl1
+2024-11-28 08:39:54 [INFO ]  	sample_n_nets: 1
+2024-11-28 08:39:54 [INFO ]  	source_dataset: null
+2024-11-28 08:39:54 [INFO ]  	start_time: '2024-11-28 08:39:54'
+2024-11-28 08:39:54 [INFO ]  	static_labels: 0
+2024-11-28 08:39:54 [INFO ]  	target_class: 1
+2024-11-28 08:39:54 [INFO ]  	test_batch_size: 1024
+2024-11-28 08:39:54 [INFO ]  	test_distill_epochs: null
+2024-11-28 08:39:54 [INFO ]  	test_distilled_images: loaded
+2024-11-28 08:39:54 [INFO ]  	test_distilled_lrs:
+2024-11-28 08:39:54 [INFO ]  	- loaded
+2024-11-28 08:39:54 [INFO ]  	test_n_nets: 1
+2024-11-28 08:39:54 [INFO ]  	test_n_runs: 1
+2024-11-28 08:39:54 [INFO ]  	test_name_format: null
+2024-11-28 08:39:54 [INFO ]  	test_nets_type: same_as_train
+2024-11-28 08:39:54 [INFO ]  	test_niter: 1
+2024-11-28 08:39:54 [INFO ]  	test_optimize_n_nets: 20
+2024-11-28 08:39:54 [INFO ]  	test_optimize_n_runs: null
+2024-11-28 08:39:54 [INFO ]  	textdata: false
+2024-11-28 08:39:54 [INFO ]  	train_nets_type: known_init
+2024-11-28 08:39:54 [INFO ]  	visualize: true
+2024-11-28 08:39:54 [INFO ]  	world_rank: 0
+2024-11-28 08:39:54 [INFO ]  	world_size: 1
+2024-11-28 08:39:54 [INFO ]  	
+2024-11-28 08:39:54 [WARNING]  text_results/umsab_20by1_knowninit_repl1\train\umsab\arch(TextConvNet_BERT,xavier,1.0)_distillLR0.02_E(120,40,0.5)_lr0.01_B10x1x5_train(known_init)\opt.yaml already exists, moved to text_results/umsab_20by1_knowninit_repl1\train\umsab\arch(TextConvNet_BERT,xavier,1.0)_distillLR0.02_E(120,40,0.5)_lr0.01_B10x1x5_train(known_init)\old_opts\opt_2024_11_28__08_34_58.yaml
+2024-11-28 08:39:57 [ERROR]  Fatal error: 
+2024-11-28 08:39:57 [ERROR]  Traceback (most recent call last):
+2024-11-28 08:39:57 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\text-dataset-distillation-master\main.py", line 437, in <module>
+2024-11-28 08:39:57 [ERROR]      main(options.get_state())
+2024-11-28 08:39:57 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\text-dataset-distillation-master\base_options.py", line 360, in get_state
+2024-11-28 08:39:57 [ERROR]      return self.set_state(self.state)
+2024-11-28 08:39:57 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\text-dataset-distillation-master\base_options.py", line 540, in set_state
+2024-11-28 08:39:57 [ERROR]      train_dataset = datasets.get_dataset(state, 'train')
+2024-11-28 08:39:57 [ERROR]    File "D:\Downloads\text-dataset-distillation-master\text-dataset-distillation-master\datasets\__init__.py", line 313, in get_dataset
+2024-11-28 08:39:57 [ERROR]      test_examples = [data.Example.fromlist([text, label], fields=[('text', TEXT), ('label', LABEL)]) for text, label in zip(open('./data/umsab/test_text.txt').read().split('\n'), open('./data/umsab/test_labels.txt').read().split('\n'))]
+2024-11-28 08:39:57 [ERROR]    File "C:\Users\maity_g6j2\.pyenv\pyenv-win\versions\3.9.13\lib\encodings\cp1252.py", line 23, in decode
+2024-11-28 08:39:57 [ERROR]      return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+2024-11-28 08:39:57 [ERROR]  UnicodeDecodeError: 'charmap' codec can't decode byte 0x8d in position 1459: character maps to <undefined>
